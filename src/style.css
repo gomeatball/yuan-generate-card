@@ -1,12 +1,22 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(163, 211, 135);
     font-size: 20px;
     font-weight: 400;
 }
 .secondP {
-    margin-top: 150px;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+
+input {
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
 }
 
 #randomCards {
@@ -60,4 +70,18 @@ body{
 }
 .card.red {
     color: red;
+}
+
+.sort-step {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgb(216, 252, 252);
+}
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  
 }
